@@ -93,9 +93,13 @@ brew install --cask pixpin
 ```
 
 🤫 I only use its scroll capture feature.
+So I disabled almost all of its shortcuts.
 
-### [Aldente](https://apphousekitchen.com/)
+### [Aldente](https://apphousekitchen.com/aldente-overview/)
 The all-in-one charge limiter app for your MacBook to maximize battery health.
+
+🤫 Apple's "Optimized Battery Charging" isn't that intelligent as they claim. The free version of Aldente is enough for setting a fixed charge limit. Then your MacBook will stop charging after reach the limit, then your precious battery will last longer.
+⚠️ You need to recalibrate Your Battery manually without paid features, which is a bit inconvenient. But it's still better than Apple's solution.
 
 ```bash
 brew install --cask aldente
@@ -149,3 +153,8 @@ brew install --cask iterm2
    ```bash
    brew install --cask istat-menus
    ```
+
+## Game
+Apple Silicon compatible games are limited, a list of them can be found here (Credit: [极客湾](https://www.bilibili.com/video/BV1im756EEa6/)):
+
+<https://www.kdocs.cn/l/cpQX160AbE4o>
