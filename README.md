@@ -137,8 +137,11 @@ brew install --cask iterm2
 
 ## Optional
 
-### Stats / iStatMenus
-1. [Stats](https://mac-stats.com/) 
+### Keyboard customizer and remapper
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+
+### System monitoring tools
+1. [Stats](https://github.com/exelban/stats) (free)
 
    A free, open-source macOS system monitor that lives in your menu bar — track CPU, GPU, RAM, disk, network and more.
 
@@ -146,7 +149,7 @@ brew install --cask iterm2
    brew install --cask stats
    ```
 
-2. [iStatMenus](https://bjango.com/mac/istatmenus/)
+2. [iStatMenus](https://bjango.com/mac/istatmenus/) (paid)
 
    The most powerful system monitoring app for macOS, right in your menubar.
 
@@ -154,7 +157,40 @@ brew install --cask iterm2
    brew install --cask istat-menus
    ```
 
-## Game
-Apple Silicon compatible games are limited, a list of them can be found here (Credit: [极客湾](https://www.bilibili.com/video/BV1im756EEa6/)):
+### Menu bar managers
 
-<https://www.kdocs.cn/l/cpQX160AbE4o>
+[Bartender](https://www.macbartender.com/) / [Ice](https://github.com/jordanbaird/Ice) / [Thaw](https://github.com/thaw-app/Thaw)
+
+They allow you to organize and manage your menu bar icons. They provide features like hiding, rearranging, and grouping menu bar items, making it easier to keep your menu bar clean and organized.
+
+And they can change menu bar item spacing. You may prefer a narrower spacing if you have used macOS 10.15 or earlier.
+
+<!-- ![Menu Bar Item Spacing differences](./assets/menubar-item-space-diff-before-macOS-11.jpg) -->
+<p align="center">
+    <img src="./assets/menubar-item-space-diff-before-macOS-11.jpg" alt="Menu Bar Item Spacing differences" width=80% />
+</p>
+
+Bartender is a paid app.
+
+```bash
+brew install --cask bartender
+```
+
+[Ice](https://github.com/jordanbaird/Ice) is free and open-source. But it has [not been maintained](https://github.com/jordanbaird/Ice/issues/939) since Sep.2025 and doesn't work properly on macOS 26 or later.
+
+So its fork, [Thaw](https://github.com/stonerl/Thaw), is recommended.
+```bash
+brew install --cask thaw
+```
+
+If you only want to change the spacing of menu bar items on macOS 26 or later, you can use [Menu Bar Spacing](https://sindresorhus.com/menu-bar-spacing).
+
+🎉 Good news: macOS 27 has made this feature built-in.
+
+## 🎮 Game
+
+- <https://github.com/nonoche2/the-macOS-game-workaround-repo/>
+- <https://www.kdocs.cn/l/cpQX160AbE4o> ([Can You Really Game on a Mac in 2026? We Tested 300 Games! - Geekerwan](https://www.youtube.com/watch?v=M48PVIG7ckg))
+
+---
+Write with ❤️ by Jon.
