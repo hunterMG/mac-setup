@@ -86,7 +86,7 @@ juse() {
   typeset -U path
 }
 
-juse 17
+[[ -x "$JAVA_17_HOME/bin/java" ]] && juse 17
 ## Java end -------------------------------------------------------------------
 # Ruby
 export GEM_HOME="$HOME/.gem"
