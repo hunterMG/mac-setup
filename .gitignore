@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Local overrides — may contain secrets, tokens or machine-specific settings
+.zshrc.local
+.zprofile.local
+.zshenv.local
+.zlogin.local
+.alias
+.env
+.env.*
+!.env.example
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs, caches and build artifacts
+*.log
+__pycache__/
+*.py[cod]
+node_modules/
+.cache/
