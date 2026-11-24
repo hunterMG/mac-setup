@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Setup script for macOS. 
-#   ohmyzsh
+#   ohmyzsh and other zsh plugins
 #   homebrew
 #   neovim
 #   font-fira-code-nerd-font
@@ -20,3 +20,15 @@ brew install neovim \
 # Install vim-plug for neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+# zsh plugins
+brew install lua
+git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open
+brew install  zsh-completions \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting \
+    z.lua \
+    starship \
+    gnupg \
+    pinentry-mac \
+    thefuck
